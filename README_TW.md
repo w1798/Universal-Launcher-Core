@@ -1,6 +1,8 @@
 # 萬用軟體啟動器核心 (Universal Launcher Core Suite)
 
-`[English](README.md)`
+<p align="right">
+  <a href="README.md">English</a> | <b>繁體中文</b>
+</p>
    
 這是一個專業、輕量且完全綠色化的 Windows 批次檔啟動核心。透過 ULC，您可以管理登錄檔、檔案同步以及目錄掛載 (Junction)，確保您喜愛的軟體在不停留任何痕跡於主機系統的前提下，實現真正的隨身攜帶。
 
