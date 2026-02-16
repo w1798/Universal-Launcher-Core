@@ -112,3 +112,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ✍️ Author
 Charles Nextime – Passionate about software portability and automation script development.
+
+## ?? Feedback & Discussion
+If you have any suggestions or would like to share your thoughts, feel free to join the discussion:
+[![Giscus Discussions](https://img.shields.io/badge/??-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=w1798&repo=ULC-Suite-Core&label=Views&color=green&style=flat-square)
