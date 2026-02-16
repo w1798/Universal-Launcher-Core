@@ -118,4 +118,4 @@ If you have any suggestions or would like to share your thoughts, feel free to j
 
 [![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=w1798&repo=Universal-Launcher-Core1&label=Views&color=green&style=flat-square)
+![Visitor Count](https://komarev.com/ghpvc/?username=w1798&repo=ulc&label=Views&color=green&style=flat-square)
