@@ -114,4 +114,4 @@ Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。
 
 [![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=w1798)
+![Visitor Count](https://komarev.com/ghpvc/?username=w1798&repo=Universal-Launcher-Core)
