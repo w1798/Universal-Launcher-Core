@@ -34,7 +34,9 @@
 
 ps. SyncBackFree4USB.bat
 使用 SyncBackFree 時，放在隨身碟根目錄的軟體：
+
 環境變數支援：引導器會自動偵測當前隨身碟代號並定義為 %MyDrive% / %MY_DRIVE% / %USB%。
+
 跨路徑調用：無論隨身碟在哪一槽(如 Z 槽)，您皆可在指令或設定中使用 %MyDrive%\Doc 來精確定位隨身碟內的資料夾(Z:\Doc)。
 
 ## 🏗️ 部署說明 (Deployment)
