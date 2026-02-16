@@ -107,3 +107,11 @@ rd /s /q temp_work
 
 ## ✍️ 作者
 Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。
+
+
+## 💬 留言與交流
+如果你有任何建議或想說的話，歡迎點擊下方連結參與討論：
+
+[![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=w1798)
