@@ -21,13 +21,35 @@
 
 ```text
 .
-├── 0start.vbs           # 靜默啟動器 (防止彈出黑色的 CMD 視窗)
-├── start.bat            # 啟動器核心引擎 (批次檔)
-├── start.ini            # 核心設定檔
-└── MyData/              # 可攜式資料儲存區 (自動產生)
-    ├── C/               # 模擬 C 槽的檔案路徑
-    └── Registry.reg     # 登錄檔備份
+├── 0start.vbs                    # 靜默啟動器 (防止彈出黑色的 CMD 視窗)
+├── start.bat                     # 啟動器核心引擎 (批次檔)
+├── start.ini                     # 核心設定檔
+├── ULC Lite Deployment Tool.bat  # [佈署用] ULC Lite 快速分發工具
+├── config/                       # [佈署用] 存放各軟體的專屬設定檔 (*.ini)
+├── SyncBackFree4USB.bat          # SyncBackFree 隨身碟專用，放在根目錄
+└── MyData/                       # 可攜式資料儲存區 (自動產生)
+    ├── C/                        # 模擬 C 槽的檔案路徑
+    └── Registry.reg              # 登錄檔備份
 ```
+
+🏗️ 部署說明 (Deployment)
+為了方便大量管理不同軟體，本套件提供了自動化部署方案：
+
+1. ULC Lite 快速分發
+如果您有多個軟體需要安裝 ULC 核心，可以使用 ULC Lite Deployment Tool.bat：
+
+設定方式：將各個軟體的設定檔（如 Chrome.ini, VSCode.ini）放入 config 目錄中。
+
+自動分發：執行部署工具後，系統會自動在目標路徑（如 D:\Portable）依據檔名建立對應資料夾，並將核心腳本與重新命名後的 start.ini 一併分發到位。
+
+2. SyncBackFree4USB.bat
+使用 SyncBackFree 時，放在隨身碟根目錄的軟體：
+
+環境變數支援：引導器會自動偵測當前隨身碟代號並定義為 %MyDrive% / %MY_DRIVE% / %USB%。
+
+跨路徑調用：無論隨身碟在哪一槽(如 Z 槽)，您皆可在指令或設定中使用 %MyDrive%\Doc 來精確定位隨身碟內的資料夾(Z:\Doc)。
+
+
 
 ⚙️ 設定說明 (start.ini)
 啟動器的所有行為皆由 start.ini 控制，以下為設定範例：
