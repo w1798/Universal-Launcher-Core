@@ -1,4 +1,5 @@
 # Universal Launcher Core (ULC) Suite
+`[繁體中文](README_TW.md)`
 
 A professional, portable, and lightweight batch-driven launcher core designed for Windows applications. ULC ensures your favorite software remains truly portable by managing registry keys, file synchronization, and directory mounting (Junctions) without leaving traces on the host system.
 
