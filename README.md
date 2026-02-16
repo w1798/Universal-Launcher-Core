@@ -1,22 +1,21 @@
-Universal Launcher Core (ULC) Suite
+# Universal Launcher Core (ULC) Suite
+
 A professional, portable, and lightweight batch-driven launcher core designed for Windows applications. ULC ensures your favorite software remains truly portable by managing registry keys, file synchronization, and directory mounting (Junctions) without leaving traces on the host system.
 
-🚀 Key Features
-Dual Storage Modes: Supports both physical file synchronization and MkLinkJ (Directory Junction) mounting for high-performance data handling.
 
-Registry Portability: Automatically backs up, restores, and cleans up Windows Registry keys.
 
-Dynamic Command Chain: Execute multiple custom commands (via | pipe syntax) before and after the main application launch.
+## 🚀 Key Features
 
-Robust Process Monitor: Actively monitors application status and ensures background "zombie" processes are terminated before backup.
+* **Dual Storage Modes**: Supports both physical file synchronization and **MkLinkJ (Directory Junction)** mounting for high-performance data handling.
+* **Registry Portability**: Automatically backs up, restores, and cleans up Windows Registry keys.
+* **Dynamic Command Chain**: Execute multiple custom commands (via `|` pipe syntax) before and after the main application launch.
+* **Robust Process Monitor**: Actively monitors application status and ensures background "zombie" processes are terminated before backup.
+* **Safe-Cleanup Engine**: Features a 5-retry logic with forced deletion to ensure host privacy and prevent data loss from file locking.
+* **Transparent Logging**: Detailed execution logs (`start_log.txt`) capturing every step, including system error messages for easy debugging.
 
-Safe-Cleanup Engine: Features a 5-retry logic with forced deletion to ensure host privacy and prevent data loss from file locking.
+## 📂 Project Structure
 
-Transparent Logging: Detailed execution logs (start_log.txt) capturing every step, including system error messages for easy debugging.
-
-📂 Project Structure
-Plaintext
-
+```text
 .
 ├── 0start.vbs           # Silent launcher (prevents CMD window pop-up)
 ├── start.bat            # The Core Engine (Batch Script)
@@ -24,11 +23,10 @@ Plaintext
 └── MyData/              # Portable data storage (Auto-generated)
     ├── C/               # Mirrored path for Drive C
     └── Registry.reg     # Registry backups
+
+
 ⚙️ Configuration (start.ini)
-The launcher is entirely driven by the start.ini file. Below is a sample configuration:
-
-Ini, TOML
-
+The launcher is entirely driven by the start.ini file.
 [Config]
 ; Main executable path
 RunExe=App\Software.exe
@@ -61,6 +59,8 @@ md temp_work | del /f /q old_cache.tmp
 [AfterCMDList]
 ; Commands to run after closing
 rd /s /q temp_work
+
+
 🛠️ Getting Started
 Place 0start.vbs, start.bat, and your start.ini in the application's root directory.
 
