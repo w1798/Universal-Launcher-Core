@@ -118,4 +118,4 @@ If you have any suggestions or would like to share your thoughts, feel free to j
 
 [![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
 
-![Visitor Count](https://count.getloli.com/get/@w1798-ulc?theme=rule34)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.ulc&label=VIEWS&countColor=%2379c83d&style=flat-square)
