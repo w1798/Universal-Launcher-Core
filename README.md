@@ -59,7 +59,7 @@ md temp_work | del /f /q old_cache.tmp
 [AfterCMDList]
 ; Commands to run after closing
 rd /s /q temp_work
-
+```
 
 🛠️ Getting Started
 Place 0start.vbs, start.bat, and your start.ini in the application's root directory.
