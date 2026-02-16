@@ -32,7 +32,7 @@
     └── Registry.reg              # 登錄檔備份
 ```
 
-🏗️ 部署說明 (Deployment)
+## 🏗️ 部署說明 (Deployment)
 為了方便大量管理不同軟體，本套件提供了自動化部署方案：
 
 1. ULC Lite 快速分發
@@ -51,7 +51,7 @@
 
 
 
-⚙️ 設定說明 (start.ini)
+## ⚙️ 設定說明 (start.ini)
 啟動器的所有行為皆由 start.ini 控制，以下為設定範例：
 ```text
 [Config]
@@ -87,7 +87,7 @@ md temp_work | del /f /q old_cache.tmp
 ; 關閉後執行的指令
 rd /s /q temp_work
 ```
-🛠️ 開始使用
+## 🛠️ 開始使用
 將 0start.vbs、start.bat 與 start.ini 放置於軟體根目錄。
 
 根據需求設定 start.ini 中的路徑與登錄檔鍵值。
@@ -96,15 +96,15 @@ rd /s /q temp_work
 
 若遇到問題，請查看 start_log.txt 取得詳細錯誤資訊。
 
-🛡️ 安全性建議
+## 🛡️ 安全性建議
 系統根目錄保護：內建防誤刪機制，禁止對 Windows、Program Files、Users 等核心目錄進行寫入或清理動作。
 
 原子化操作：使用臨時批次檔執行技術，避免執行期間發生檔案佔用衝突。
 
 編碼提醒：若 INI 內含有中文路徑，請務必將檔案儲存為 UTF-8 with BOM 編碼。
 
-📜 授權條款
+## 📜 授權條款
 本專案採用 MIT License 授權 - 詳情請參閱 LICENSE 檔案。
 
-✍️ 作者
+## ✍️ 作者
 Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。
