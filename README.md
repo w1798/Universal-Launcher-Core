@@ -27,7 +27,7 @@ A professional, portable, and lightweight batch-driven launcher core designed fo
     ├── C/               # Mirrored path for Drive C
     └── Registry.reg     # Registry backups
 
-
+```
 ⚙️ Configuration (start.ini)
 The launcher is entirely driven by the start.ini file.
 [Config]
@@ -62,7 +62,7 @@ md temp_work | del /f /q old_cache.tmp
 [AfterCMDList]
 ; Commands to run after closing
 rd /s /q temp_work
-```
+
 
 🛠️ Getting Started
 Place 0start.vbs, start.bat, and your start.ini in the application's root directory.
