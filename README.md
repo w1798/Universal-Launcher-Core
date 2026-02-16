@@ -1,34 +1,59 @@
-# Universal Launcher Core (ULC) Suite
+# Universal Launcher Core Suite (ULC)
+
 <p align="right">
   <b>English</b> | <a href="README_TW.md">繁體中文</a>
 </p>
 
-A professional, portable, and lightweight batch-driven launcher core designed for Windows applications. ULC ensures your favorite software remains truly portable by managing registry keys, file synchronization, and directory mounting (Junctions) without leaving traces on the host system.
+A professional, lightweight, and fully portable Windows batch-based launch core. ULC enables you to manage registry keys, file synchronization, and directory junctions, ensuring your favorite software stays truly portable without leaving any trace on the host system.
 
-
+---
 
 ## 🚀 Key Features
 
-* **Dual Storage Modes**: Supports both physical file synchronization and **MkLinkJ (Directory Junction)** mounting for high-performance data handling.
-* **Registry Portability**: Automatically backs up, restores, and cleans up Windows Registry keys.
-* **Dynamic Command Chain**: Execute multiple custom commands (via `|` pipe syntax) before and after the main application launch.
-* **Robust Process Monitor**: Actively monitors application status and ensures background "zombie" processes are terminated before backup.
-* **Safe-Cleanup Engine**: Features a 5-retry logic with forced deletion to ensure host privacy and prevent data loss from file locking.
-* **Transparent Logging**: Detailed execution logs (`start_log.txt`) capturing every step, including system error messages for easy debugging.
+* **Dual Storage Modes**: Supports both "Physical File Sync" and **MkLinkJ (Junction)** mounting modes, providing high-performance solutions for data-heavy applications.
+* **Registry Portability**: Automatically backs up, restores, and cleans up Windows Registry keys upon exit.
+* **Dynamic Command Chains**: Supports multiple custom commands before and after the main program execution (separated by the `|` symbol).
+* **Robust Process Monitoring**: Actively monitors program status to ensure all background "zombie processes" are terminated before final backup.
+* **Safe Cleanup Mechanism**: Built-in 5-retry logic for forced deletion to resolve file-lock issues and protect privacy.
+* **Transparent Logging**: Detailed execution logs (`start_log.txt`) including system error messages for easy troubleshooting.
+
+---
 
 ## 📂 Project Structure
 
 ```text
 .
-├── 0start.vbs           # Silent launcher (prevents CMD window pop-up)
-├── start.bat            # The Core Engine (Batch Script)
-├── start.ini            # Configuration file
-└── MyData/              # Portable data storage (Auto-generated)
-    ├── C/               # Mirrored path for Drive C
-    └── Registry.reg     # Registry backups
+├── 0start.vbs                 # Silent Launcher (Prevents CMD window pop-ups)
+├── start.bat                  # Core Launcher Engine (Batch script)
+├── start.ini                  # Core Configuration File
+├── ULC Lite Deployment Tool.bat # [Deployment] Rapid distribution tool
+├── config/                    # [Deployment] App-specific config files (*.ini)
+├── SyncBackFree4USB.bat       # Entry loader for USB root (Example for SyncBackFree)
+└── MyData/                    # Portable Data Storage (Auto-generated)
+    ├── C/                     # Simulated C: Drive file paths
+    └── Registry.reg           # Registry backup file
 
-```
-⚙️ Configuration (start.ini)
+
+
+💡 USB Entry Loader (e.g., SyncBackFree4USB.bat)
+Specifically designed for software placed at the root of a USB drive:
+
+Environment Variable Support: Automatically detects the current drive letter and defines %MyDrive%, %MY_DRIVE%, and %USB%.
+
+Cross-Path Referencing: Regardless of the drive letter assigned (e.g., Z:), you can use %MyDrive%\Doc in settings to accurately locate folders on the USB drive.
+
+
+## 🏗️ Deployment Guide
+To manage multiple software packages efficiently, ULC provides an automated deployment solution:
+
+ULC Lite Rapid Distribution
+Use the ULC Lite Deployment Tool.bat to install the ULC core into multiple app directories:
+
+Configuration: Place your app-specific settings (e.g., Chrome.ini, VSCode.ini) into the config directory.
+
+Automated Distribution: Run the tool to automatically create folders in the target path (e.g., D:\Portable) based on the filenames, distribute the core scripts, and rename the specific INI to start.ini.
+
+## ⚙️ Configuration (start.ini)
 ```text
 The launcher is entirely driven by the start.ini file.
 [Config]
@@ -65,7 +90,7 @@ md temp_work | del /f /q old_cache.tmp
 rd /s /q temp_work
 ```
 
-🛠️ Getting Started
+## 🛠️ Getting Started
 Place 0start.vbs, start.bat, and your start.ini in the application's root directory.
 
 Configure your paths and registry keys in start.ini.
@@ -74,13 +99,15 @@ Run 0start.vbs to launch your application silently.
 
 Check start_log.txt if any issues occur during the process.
 
-🛡️ Safety & Security
-Root Protection: Built-in safeguards prevent accidental deletion of critical system directories (e.g., Windows, Program Files, Users).
+## 🛡️ Safety & Security
+System Root Protection: Built-in protection prevents writing to or cleaning critical directories like Windows, Program Files, or Users.
 
-Atomic Operations: Uses temporary batch execution to prevent file-in-use conflicts during runtime.
+Atomic Operations: Uses temporary batch execution techniques to avoid file occupancy conflicts during runtime.
 
-📜 License
+Encoding Note: If the INI contains non-ASCII characters (e.g., Chinese paths), ensure the file is saved with UTF-8 with BOM encoding.
+
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ✍️ Author
-Charles Nextime Passionate about portable software and automation.
+Charles Nextime – Passionate about software portability and automation script development.
