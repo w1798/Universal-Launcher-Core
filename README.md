@@ -42,6 +42,7 @@ Environment Variable Support: Automatically detects the current drive letter and
 
 Cross-Path Referencing: Regardless of the drive letter assigned (e.g., Z:), you can use %MyDrive%\Doc in settings to accurately locate folders on the USB drive.
 
+```
 
 ## 🏗️ Deployment Guide
 To manage multiple software packages efficiently, ULC provides an automated deployment solution:
