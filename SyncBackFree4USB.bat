@@ -2,12 +2,12 @@
 setlocal EnableDelayedExpansion
 
 rem =======================================================================
-rem  Portable Project: Universal Launcher Core Suite (ULC)
-rem  This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...
-rem  ----------------------------------------------------------------------
-rem  Component: [Entry Loader / 外部引導器]
 rem  This script enters the app directory and triggers the silent launcher.
 rem  本腳本負責進入程式目錄並觸發靜默啟動器。
+rem  ----------------------------------------------------------------------
+rem  Component: [Entry Loader / 外部引導器]
+rem  Copyright (c) 2026 Charles Nextime
+rem  Licensed under the MIT License.
 rem =======================================================================
 
 rem --- [Configuration / 設定區] ---

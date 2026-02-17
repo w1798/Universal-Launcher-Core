@@ -146,4 +146,4 @@ Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.ulc&label=VIEWS&countColor=%2379c83d&style=flat-square)
 
-<p align="center">Completed by Charles Nextime with AI assistance</p>
+<p align="center">Copyright (c) 2026 Charles Nextime</p>
