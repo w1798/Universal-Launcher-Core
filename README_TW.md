@@ -124,6 +124,14 @@ rd /s /q temp_work
 
 編碼提醒：若 INI 內含有中文路徑，請務必將檔案儲存為 UTF-8 with BOM 編碼。
 
+##🤝 徵求設定檔分享 (Community Contributions)
+為了讓更多人能立即享受軟體綠色化的便利，誠摯邀請您分享已調校完成的 start.ini！
+
+如何分享：您可以透過 Discussions 貼上您的設定內容。
+
+分享好處：我會將經過驗證的設定檔收錄至 config/ 目錄中。未來其他使用者只需透過「ULC Lite 佈署工具」，即可一鍵完成該軟體的可攜化配置，無需重新分析路徑。
+
+
 ## 📜 授權條款
 本專案採用 MIT License 授權 - 詳情請參閱 LICENSE 檔案。
 
