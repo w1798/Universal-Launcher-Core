@@ -3,6 +3,7 @@ setlocal EnableDelayedExpansion
 
 rem =======================================================================
 rem  Portable Project: Universal Launcher Core Suite (萬用啟動器核心套件)
+rem  This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...
 rem  ----------------------------------------------------------------------
 rem  Component: [核心引擎 - Standalone 混合版 (Sync/ML)]
 rem  Authored by Charles Nextime
