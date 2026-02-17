@@ -143,4 +143,4 @@ If you have any suggestions or would like to share your thoughts, feel free to j
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.ulc&label=VIEWS&countColor=%2379c83d&style=flat-square)
 
 
-Completed by Charles Nextime with AI assistance
+<p align="center">Completed by Charles Nextime with AI assistance</p>
