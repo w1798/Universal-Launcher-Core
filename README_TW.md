@@ -124,7 +124,7 @@ rd /s /q temp_work
 
 編碼提醒：若 INI 內含有中文路徑，請務必將檔案儲存為 UTF-8 with BOM 編碼。
 
-##🤝 徵求設定檔分享 (Community Contributions)
+## 🤝 徵求設定檔分享 (Community Contributions)
 為了讓更多人能立即享受軟體綠色化的便利，誠摯邀請您分享已調校完成的 start.ini！
 
 如何分享：您可以透過 Discussions 貼上您的設定內容。
