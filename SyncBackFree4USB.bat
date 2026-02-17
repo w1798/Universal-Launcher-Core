@@ -7,7 +7,7 @@ rem  本腳本負責進入程式目錄並觸發靜默啟動器。
 rem  ----------------------------------------------------------------------
 rem  Component: [Entry Loader / 外部引導器]
 rem  Copyright (c) 2026 Charles Nextime
-rem  Licensed under the MIT License.
+rem  Licensed under the GNU General Public License v3.0
 rem =======================================================================
 
 rem --- [Configuration / 設定區] ---

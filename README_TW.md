@@ -133,7 +133,7 @@ rd /s /q temp_work
 
 
 ## 📜 授權條款
-本專案採用 MIT License 授權 - 詳情請參閱 LICENSE 檔案。
+本專案採用 GPLv3 License 授權 - 詳情請參閱 LICENSE 檔案。
 
 ## ✍️ 作者
 Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。

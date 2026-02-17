@@ -137,7 +137,7 @@ How to Contribute: You can post your configuration in the Discussions area.
 Why Share?: Verified configurations will be added to the config/ directory. Future users can then use the "ULC Lite Deployment Tool" to set up their portable apps instantly without having to re-analyze file paths or registry keys.
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GPLv3 License - see the LICENSE file for details.
 
 ✍️ Author
 Charles Nextime – Passionate about software portability and automation script development.

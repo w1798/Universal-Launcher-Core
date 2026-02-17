@@ -6,7 +6,7 @@ rem  Portable Project: Universal Launcher Core Suite (萬用啟動器核心套件)
 rem  ----------------------------------------------------------------------
 rem  Component: [核心引擎 - Standalone 混合版 (Sync/ML)]
 rem  Copyright (c) 2026 Charles Nextime
-rem  Licensed under the MIT License.
+rem  Licensed under the GNU General Public License v3.0
 rem =======================================================================
 
 rem 指定設定檔（INI）
