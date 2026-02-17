@@ -8,6 +8,28 @@ A professional, lightweight, and fully portable Windows batch-based launch core.
 
 ---
 
+## 💡 Development Philosophy (Why ULC?)
+In the Windows environment, re-installing software and re-configuring personal settings after a system restoration or OS re-installation is often the most time-consuming task. ULC was created to achieve a "Painless Restoration" experience:
+
+System Partition Slimming: By keeping software binaries and data on a non-system partition (e.g., D: drive), the system backup image remains compact, saving significant storage space.
+
+Instant Recovery: After a system restoration, there is no need for re-installation. Simply run the launcher to restore all personalized settings instantly.
+
+Maintain System Purity: Data generated during software execution is automatically retracted to the storage area upon closing, ensuring the C: drive remains clean and clutter-free.
+
+## 🛠️ Portabilization Workflow (Best Practice)
+This suite is best used in conjunction with virtualization or monitoring tools (such as VMware, Sandboxie-Plus, or Total Uninstall) to achieve the best portabilization results:
+
+Isolated Installation: Install the target software within a Virtual Machine or a Sandbox.
+
+Change Tracking: Use Total Uninstall or the file monitoring features of Sandboxie-Plus to identify exactly which files, directories, and Registry keys the software creates on the C:\ drive.
+
+Deployment: Copy the installed software folder to your portable directory (e.g., D:\Portable\App).
+
+Configuration: Enter the file paths and Registry keys identified in Step 2 into the start.ini file.
+
+One-Click Launch: Use the ULC launcher to automate the restoration of settings, execute the software, and back up all changes back to MyData upon exit.
+
 ## 🚀 Key Features
 
 * **Dual Storage Modes**: Supports both "Physical File Sync" and **MkLinkJ (Junction)** mounting modes, providing high-performance solutions for data-heavy applications.
