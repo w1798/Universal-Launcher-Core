@@ -129,6 +129,13 @@ Atomic Operations: Uses temporary batch execution techniques to avoid file occup
 
 Encoding Note: If the INI contains non-ASCII characters (e.g., Chinese paths), ensure the file is saved with UTF-8 with BOM encoding.
 
+## 🤝 Community Contributions
+To make software portabilization even easier for everyone, I sincerely invite you to share your fine-tuned start.ini configurations!
+
+How to Contribute: You can post your configuration in the Discussions area.
+
+Why Share?: Verified configurations will be added to the config/ directory. Future users can then use the "ULC Lite Deployment Tool" to set up their portable apps instantly without having to re-analyze file paths or registry keys.
+
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
