@@ -137,3 +137,5 @@ Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。
 [![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.ulc&label=VIEWS&countColor=%2379c83d&style=flat-square)
+
+<p align="center">Completed by Charles Nextime with AI assistance</p>
