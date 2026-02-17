@@ -7,7 +7,8 @@ rem  ----------------------------------------------------------------------
 rem  Component: [ULC Lite Deployment Tool / 部署工具]
 rem  Function: Distribute core scripts and rename INI files automatically
 rem            自動分發核心腳本並重命名 INI 檔案
-rem  Authored by Charles Nextime
+rem  Copyright (c) 2026 Charles Nextime
+rem  Licensed under the MIT License.
 rem =======================================================================
 
 :: [Config / 設定區]
