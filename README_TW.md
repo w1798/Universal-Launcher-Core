@@ -1,14 +1,14 @@
-# 萬用軟體啟動器核心 (Universal Launcher Core Suite)
+# 萬用軟體前導程式 (Universal Software Preloader)
 
 <p align="right">
   <a href="README.md">English</a> | <b>繁體中文</b>
 </p>
    
-這是一個專業、輕量且完全綠色化的 Windows 批次檔啟動核心。透過 ULC，您可以管理登錄檔、檔案同步以及目錄掛載 (Junction)，確保您喜愛的軟體在不停留任何痕跡於主機系統的前提下，實現真正的隨身攜帶。
+USP 是一個專業、輕量且完全綠色化的 Windows 批次檔啟動核心。透過 USP，您可以管理登錄檔、檔案同步以及目錄掛載 (Junction)，確保您喜愛的軟體在不停留任何痕跡於主機系統的前提下，實現真正的隨身攜帶。
 
 
-## 💡 開發理念 (Why ULC?)
-在 Windows 環境中，系統重灌或還原後，重新安裝軟體與調整設定往往是最耗時的過程。ULC 的存在就是為了實現「重灌無痛化」：
+## 💡 開發理念 (Why USP?)
+在 Windows 環境中，系統重灌或還原後，重新安裝軟體與調整設定往往是最耗時的過程。USP 的存在就是為了實現「重灌無痛化」：
 
 系統碟瘦身：將軟體本體與資料保存在非系統碟（如 D 碟），縮小系統備份檔體積，節省空間。
 
@@ -27,7 +27,7 @@
 
 參數設定：將步驟 2 取得的檔案路徑與登錄檔鍵值寫入 start.ini。
 
-一鍵啟動：透過 ULC 啟動器，實現自動化還原設定、執行軟體、並在關閉後自動備份回 MyData。
+一鍵啟動：透過 USP 啟動器，實現自動化還原設定、執行軟體、並在關閉後自動備份回 MyData。
 
 
 ## 🚀 核心特色
@@ -46,7 +46,7 @@
 ├── 0start.vbs                    # 靜默啟動器 (防止彈出黑色的 CMD 視窗)
 ├── start.bat                     # 啟動器核心引擎 (批次檔)
 ├── start.ini                     # 核心設定檔
-├── ULC Lite Deployment Tool.bat  # [佈署用] ULC Lite 快速分發工具
+├── USP Deployment Tool.bat       # [佈署用] USP 快速分發工具
 ├── config/                       # [佈署用] 存放各軟體的專屬設定檔 (*.ini)
 ├── SyncBackFree4USB.bat          # SyncBackFree 隨身碟專用，放在根目錄
 └── MyData/                       # 可攜式資料儲存區 (自動產生)
@@ -64,8 +64,8 @@ ps. SyncBackFree4USB.bat
 ## 🏗️ 部署說明 (Deployment)
 為了方便大量管理不同軟體，本套件提供了自動化部署方案：
 
-ULC Lite 快速分發
-如果您有多個軟體需要安裝 ULC 核心，可以使用 ULC Lite Deployment Tool.bat：
+USP Lite 快速分發
+如果您有多個軟體需要安裝 USP 核心，可以使用 USP Lite Deployment Tool.bat：
 
 設定方式：將各個軟體的設定檔（如 Chrome.ini, VSCode.ini）放入 config 目錄中。
 
@@ -129,7 +129,7 @@ rd /s /q temp_work
 
 如何分享：您可以透過 Discussions 貼上您的設定內容。
 
-分享好處：我會將經過驗證的設定檔收錄至 config/ 目錄中。未來其他使用者只需透過「ULC Lite 佈署工具」，即可一鍵完成該軟體的可攜化配置，無需重新分析路徑。
+分享好處：我會將經過驗證的設定檔收錄至 config/ 目錄中。未來其他使用者只需透過「USP Lite 佈署工具」，即可一鍵完成該軟體的可攜化配置，無需重新分析路徑。
 
 
 ## 📜 授權條款
@@ -144,6 +144,6 @@ Charles Nextime 熱衷於軟體綠色化與自動化腳本開發。
 
 [![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.ulc&label=VIEWS&countColor=%2379c83d&style=flat-square)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.USP&label=VIEWS&countColor=%2379c83d&style=flat-square)
 
 <p align="center">Copyright (c) 2026 Charles Nextime</p>
