@@ -69,10 +69,10 @@ Cross-Path Referencing: Regardless of the drive letter assigned (e.g., Z:), you 
 ## 🏗️ Deployment Guide
 To manage multiple software packages efficiently, USP provides an automated deployment solution:
 
-USP Lite Rapid Distribution
+USP Rapid Distribution
 Use the USP Deployment Tool.bat to install the USP core into multiple app directories:
 
-Configuration: Place your app-specific settings (e.g., Chrome.ini, VSCode.ini) into the config directory.
+Configuration: Place your app-specific settings (e.g., GitHubDesktop.ini) into the config directory.
 
 Automated Distribution: Run the tool to automatically create folders in the target path (e.g., D:\Portable) based on the filenames, distribute the core scripts, and rename the specific INI to start.ini.
 

@@ -64,10 +64,10 @@ ps. SyncBackFree4USB.bat
 ## 🏗️ 部署說明 (Deployment)
 為了方便大量管理不同軟體，本套件提供了自動化部署方案：
 
-USP Lite 快速分發
-如果您有多個軟體需要安裝 USP 核心，可以使用 USP Lite Deployment Tool.bat：
+USP 快速分發
+如果您有多個軟體需要安裝 USP 核心，可以使用 USP Deployment Tool.bat：
 
-設定方式：將各個軟體的設定檔（如 Chrome.ini, VSCode.ini）放入 config 目錄中。
+設定方式：將各個軟體的設定檔（如 GitHubDesktop.ini）放入 config 目錄中。
 
 自動分發：執行部署工具後，系統會自動在目標路徑（如 D:\Portable）依據檔名建立對應資料夾，並將核心腳本與重新命名後的 start.ini 一併分發到位。
 
@@ -129,7 +129,7 @@ rd /s /q temp_work
 
 如何分享：您可以透過 Discussions 貼上您的設定內容。
 
-分享好處：我會將經過驗證的設定檔收錄至 config/ 目錄中。未來其他使用者只需透過「USP Lite 佈署工具」，即可一鍵完成該軟體的可攜化配置，無需重新分析路徑。
+分享好處：我會將經過驗證的設定檔收錄至 config/ 目錄中。未來其他使用者只需透過「USP Deployment Tool.bat」，即可一鍵完成該軟體的可攜化配置，無需重新分析路徑。
 
 
 ## 📜 授權條款
