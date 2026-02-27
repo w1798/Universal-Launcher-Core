@@ -1,14 +1,14 @@
-# Universal Software Preloader (USP)
+# Universal Software Bootstrap (USB) 萬用軟體前導程式
 
 <p align="right">
   <b>English</b> | <a href="README_TW.md">繁體中文</a>
 </p>
 
-A professional, lightweight, and fully portable Windows batch-based launch core. USP enables you to manage registry keys, file synchronization, and directory junctions, ensuring your favorite software stays truly portable without leaving any trace on the host system.
+A professional, lightweight, and fully portable Windows batch-based launch core. USB enables you to manage registry keys, file synchronization, and directory junctions, ensuring your favorite software stays truly portable without leaving any trace on the host system.
 
 ---
 
-## 💡 Development Philosophy (Why USP?)
+## 💡 Development Philosophy (Why USB?)
 In the Windows environment, re-installing software and re-configuring personal settings after a system restoration or OS re-installation is often the most time-consuming task. H was created to achieve a "Painless Restoration" experience:
 
 System Partition Slimming: By keeping software binaries and data on a non-system partition (e.g., D: drive), the system backup image remains compact, saving significant storage space.
@@ -28,7 +28,7 @@ Deployment: Copy the installed software folder to your portable directory (e.g.,
 
 Configuration: Enter the file paths and Registry keys identified in Step 2 into the start.ini file.
 
-One-Click Launch: Use the USP launcher to automate the restoration of settings, execute the software, and back up all changes back to MyData upon exit.
+One-Click Launch: Use the USB launcher to automate the restoration of settings, execute the software, and back up all changes back to MyData upon exit.
 
 ## 🚀 Key Features
 
@@ -48,7 +48,7 @@ One-Click Launch: Use the USP launcher to automate the restoration of settings, 
 ├── 0start.vbs                 # Silent Launcher (Prevents CMD window pop-ups)
 ├── start.bat                  # Core Launcher Engine (Batch script)
 ├── start.ini                  # Core Configuration File
-├── USP Deployment Tool.bat    # [Deployment] Rapid distribution tool
+├── USB Deployment Tool.bat    # [Deployment] Rapid distribution tool
 ├── config/                    # [Deployment] App-specific config files (*.ini)
 ├── SyncBackFree4USB.bat       # Entry loader for USB root (Example for SyncBackFree)
 └── MyData/                    # Portable Data Storage (Auto-generated)
@@ -67,10 +67,10 @@ Cross-Path Referencing: Regardless of the drive letter assigned (e.g., Z:), you 
 ```
 
 ## 🏗️ Deployment Guide
-To manage multiple software packages efficiently, USP provides an automated deployment solution:
+To manage multiple software packages efficiently, USB provides an automated deployment solution:
 
-USP Rapid Distribution
-Use the USP Deployment Tool.bat to install the USP core into multiple app directories:
+USB Rapid Distribution
+Use the USB Deployment Tool.bat to install the USB core into multiple app directories:
 
 Configuration: Place your app-specific settings (e.g., GitHubDesktop.ini) into the config directory.
 
@@ -134,7 +134,7 @@ To make software portabilization even easier for everyone, I sincerely invite yo
 
 How to Contribute: You can post your configuration in the Discussions area.
 
-Why Share?: Verified configurations will be added to the config/ directory. Future users can then use the "USP Deployment Tool" to set up their portable apps instantly without having to re-analyze file paths or registry keys.
+Why Share?: Verified configurations will be added to the config/ directory. Future users can then use the "USB Deployment Tool" to set up their portable apps instantly without having to re-analyze file paths or registry keys.
 
 ## 📜 License
 This project is licensed under the GPLv3 License - see the LICENSE file for details.
@@ -147,7 +147,7 @@ If you have any suggestions or would like to share your thoughts, feel free to j
 
 [![Giscus Discussions](https://img.shields.io/badge/💬-Giscus%20Discussions-blue?style=for-the-badge)](https://github.com/w1798/my-comments/discussions)
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.USP&label=VIEWS&countColor=%2379c83d&style=flat-square)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=w1798.USB&label=VIEWS&countColor=%2379c83d&style=flat-square)
 
 
 <p align="center">Copyright (c) 2026 Charles Nextime</p>

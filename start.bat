@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 rem =======================================================================
-rem  Portable Project: Universal Software Preloader (萬用軟體前導程式)
+rem  Universal Software Bootstrap (USB) 萬用軟體前導程式
 rem  ----------------------------------------------------------------------
 rem  Component: [核心引擎 - Standalone 混合版 (Sync/ML)]
 rem  Copyright (c) 2026 Charles Nextime

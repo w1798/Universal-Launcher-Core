@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 rem =======================================================================
-rem  Portable Project: Universal Software Preloader (萬用軟體前導程式)
+rem  Universal Software Bootstrap (USB) 萬用軟體前導程式
 rem  ----------------------------------------------------------------------
 rem  Component: [USP Deployment Tool / 部署工具]
 rem  Function: Distribute core scripts and rename INI files automatically
