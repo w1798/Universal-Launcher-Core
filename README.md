@@ -4,8 +4,7 @@
   <b>English</b> | <a href="README_TW.md">繁體中文</a>
 </p>
 
-A professional, lightweight, and fully portable Windows batch-based launch core. USB enables you to manage registry keys, file synchronization, and directory junctions, ensuring your favorite software stays truly portable without leaving any trace on the host system.
-
+A professional, batch-driven Universal Software Bootstrap (USB) for Windows. It ensures true portability by automating registry handling, file synchronization, and directory junctions, leaving zero traces on the host system.
 ---
 
 ## 💡 Development Philosophy (Why USB?)
